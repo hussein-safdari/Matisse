@@ -33,7 +33,9 @@
         android:textColor="@android:color/white"
         android:textSize="16sp"
         tools:text="content://media/external/images/media/12345"
-        tools:textColor="@android:color/black" />
+        tools:textColor="@android:color/black"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp" />
 
     <TextView
         android:id="@+id/path"
@@ -48,5 +50,7 @@
         android:textColor="@android:color/white"
         android:textSize="16sp"
         tools:text="/storage/emulated/0/Pictures/JPEG_20170516_12345.jpg"
-        tools:textColor="@android:color/black" />
+        tools:textColor="@android:color/black"
+        android:paddingEnd="8dp"
+        android:paddingStart="8dp" />
 </LinearLayout>
